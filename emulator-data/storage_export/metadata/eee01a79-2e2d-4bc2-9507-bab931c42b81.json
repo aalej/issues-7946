@@ -1,0 +1,19 @@
+{
+  "name": "my-file.txt",
+  "bucket": "demo-project.appspot.com",
+  "metageneration": 1,
+  "generation": 1731674950190,
+  "contentType": "text/plain",
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "downloadTokens": [
+    "2da56972-c994-45c1-8f6b-fb32e875373d"
+  ],
+  "etag": "yyEqVVcq3ejZAgQ+lpC0HopJOM4",
+  "customMetadata": {},
+  "timeCreated": "2024-11-15T12:49:10.190Z",
+  "updated": "2024-11-15T12:49:10.190Z",
+  "size": 9,
+  "md5Hash": "c/mXdVZYSjaYAOd1tI89vg==",
+  "crc32c": "148201291"
+}

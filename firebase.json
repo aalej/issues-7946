@@ -1,0 +1,37 @@
+{
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "singleProjectMode": true,
+    "ui": {
+      "enabled": true,
+      "port": 3010
+    },
+    "auth": {
+      "port": 3011,
+      "host": "localhost"
+    },
+    "storage": {
+      "port": 3014,
+      "host": "localhost"
+    },
+    "functions": {
+      "port": 3015,
+      "host": "localhost"
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
